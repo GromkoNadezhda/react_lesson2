@@ -1,0 +1,34 @@
+.todos{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+      
+}
+.todos__input{
+    height: 30px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid  #646cff;
+    font-size: 18px;
+    color: #213547;
+    outline: none;
+}
+.todos__create-btn{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    margin-bottom: 50px;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    color: #646cff;
+    transition: border-color 3s;
+}
+.todos__create-btn:hover {
+    border-color: #646cff;
+  }
+  .todos__create-btn:focus{
+    outline: 4px auto -webkit-focus-ring-color;
+  }
